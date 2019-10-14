@@ -137,7 +137,7 @@
 					<DataTemplate>
 						<ViewCell>
 							<StackLayout Padding="10" Spacing="5">
-								<Label Text="{Binding Timestamp, StringFormat='{}{0:MM/dd/yyyy a\\t h:mm tt}'}}" FontSize="Small"/>
+								<Label Text="{Binding Timestamp, StringFormat='{}{0:MM/dd/yyyy a\\t h:mm tt}'}" FontSize="Small"/>
 								<Label Text="{Binding Latitude}" FontSize="Micro"/>
 								<Label Text="{Binding Longitude}" FontSize="Micro"/>
 							</StackLayout>
